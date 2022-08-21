@@ -1,0 +1,11 @@
+picom -b --experimental-backends &
+
+xfce4-power-manager &
+
+lxpolkit &
+
+dunst -config ~/.config/dunst/dunstrc-dark-left &
+
+feh --bg-fill ~/wallpapers/waves/blue.jpg & 
+
+tint2 &
